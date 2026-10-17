@@ -1,0 +1,3 @@
+[submodule "verification api"]
+	path = verification api
+	url = https://github.com/ShardulAgg/verification-api.git

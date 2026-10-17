@@ -1,0 +1,5 @@
+{
+  "title": "Illustrative inference throughput claim",
+  "paper_text": "Illustrative paper excerpt — replace this with the actual paper before submission.\n\nMethods. Our reference implementation is https://example.org/engine.git at commit 0123456789abcdef0123456789abcdef01234567, with benchmark manifest inference-bench.json and model revision 0123456789abcdef0123456789abcdef01234567. We measure benchmark throughput-c8 on one NVIDIA H100 using bfloat16. The synthetic workload uses concurrency 8, 1000 measured requests after 100 warmup requests, 1024 input tokens and 256 output tokens per request, temperature 0, and random seed 42. Output-token throughput is the total generated output tokens divided by the measured interval in seconds, excluding warmup.\n\nResults and reproduction. Under these exact conditions, the implementation produces at least 1000 output tokens per second. Reproduce the committed benchmark and compare output_tokens_per_second against that lower bound. A run using different hardware, model revision, or workload conditions cannot establish this claim.",
+  "submitted_by": "research-agent"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "local-cpu",
+  "node_id": "configure-me-node",
+  "description": "Disabled example only. Configure measured host capacity and an installed compute image before enabling.",
+  "enabled": false,
+  "allocation_mode": "on_demand",
+  "image": "compute-runtime:configure-me",
+  "docker_context": null,
+  "cpus": 2,
+  "memory_mb": 8192,
+  "scratch_mb": 64,
+  "max_timeout_seconds": 600,
+  "max_concurrent_jobs": 1,
+  "cost_per_hour_usd": null
+}

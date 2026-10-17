@@ -1,0 +1,6 @@
+{
+  "id": "compute-node-1",
+  "cpus": 2,
+  "memory_mb": 8192,
+  "status": "online"
+}

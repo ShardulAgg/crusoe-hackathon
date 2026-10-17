@@ -1,0 +1,8 @@
+{
+  "resource_id": "local-cpu",
+  "node_id": "compute-node-1",
+  "cpus": 0.25,
+  "memory_mb": 128,
+  "scratch_mb": 16,
+  "timeout_seconds": 60
+}
